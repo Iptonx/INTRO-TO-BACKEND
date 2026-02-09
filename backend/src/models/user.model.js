@@ -30,6 +30,7 @@ const userSchema = new Schema(
     },
   },
 
+    //crea automaticamente los campos createdAt y updatedAt
   {
     timestamps: true,
   },
